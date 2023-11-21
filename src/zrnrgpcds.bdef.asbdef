@@ -1,0 +1,27 @@
+unmanaged implementation in class zbp_rnrgpcds unique;
+//strict ( 2 );
+
+define behavior for zrnrgpcds //alias <alias_name>
+//late numbering
+//lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  association item { create; }
+}
+
+define behavior for zrnrgpitemcds //alias <alias_name>
+//late numbering
+//lock dependent by head
+//authorization dependent by head
+//etag master <field_name>
+{
+ create;
+  update;
+  delete;
+  //field ( readonly ) Gatepasstype, Gatepassyear, Gatepassnumber, Plant;
+  //association head;
+}

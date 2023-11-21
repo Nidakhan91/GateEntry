@@ -1,0 +1,4 @@
+@EndUserText.label: 'Material Master'
+define service Zmaterialmaster {
+  expose zmaterialmaster as materialmaster;
+}

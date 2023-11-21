@@ -1,0 +1,4 @@
+@EndUserText.label: 'RGP/NRGP Report'
+define service Zrnrgpreport {
+  expose zrnrgpreport as rnrgpreport;
+}

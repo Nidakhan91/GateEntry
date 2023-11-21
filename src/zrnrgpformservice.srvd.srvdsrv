@@ -1,0 +1,5 @@
+@EndUserText.label: 'RNRGP Form Service'
+define service Zrnrgpformservice {
+  expose zrnrgpformcds      as formhead;
+  expose zrgnrgpformitemcds as formitem;
+}

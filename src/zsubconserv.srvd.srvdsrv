@@ -1,0 +1,4 @@
+@EndUserText.label: 'Subcon Serv'
+define service Zsubconserv {
+  expose zsubconcds as subcon;
+}

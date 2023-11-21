@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for PowerGen'
+define service ZSRD_ZC_POWERGENERATION {
+  expose ZC_PowerGeneration;
+}

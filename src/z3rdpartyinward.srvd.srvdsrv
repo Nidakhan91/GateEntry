@@ -1,0 +1,4 @@
+@EndUserText.label: '3rd PArty Inward Serv'
+define service Z3rdpartyinward {
+  expose zgateinward3rdparty as rdpartyin;
+}

@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_gateoutwardclose unique;
+strict ( 1 );
+
+define behavior for zgateoutwardclose //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

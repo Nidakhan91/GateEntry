@@ -1,0 +1,16 @@
+unmanaged implementation in class zbp_gateentryreport unique;
+strict ( 2 );
+
+define behavior for zgateentryreport //alias <alias_name>
+//persistent table <???>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+field ( readonly : update ) gateentryno;
+field ( readonly : update ) gateentrydate;
+field ( readonly : update ) plant;
+  create;
+  update;
+  delete;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate Out Close Service'
+define service Zgateoutcloseserv {
+  expose zgateoutwardclose as outwardclose;
+}

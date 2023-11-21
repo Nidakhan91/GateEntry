@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_gateinward3rdparty unique;
+strict ( 2 );
+
+define behavior for zgateinward3rdparty //alias <alias_name>
+//persistent table zgenpoheader
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+ field ( readonly:update ) gateentryno,podocno;
+  create;
+  update;
+  delete;
+}

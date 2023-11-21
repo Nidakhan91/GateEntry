@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_rnrgpformhead unique;
+strict ( 2 );
+
+define behavior for zrnrgpformhead //alias <alias_name>
+//persistent table <???>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

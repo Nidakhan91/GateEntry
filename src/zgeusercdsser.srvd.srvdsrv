@@ -1,0 +1,4 @@
+@EndUserText.label: 'User access Service'
+define service ZGEUSERCDSSER {
+  expose zgeusercds as useraccess;
+}

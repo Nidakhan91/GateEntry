@@ -1,0 +1,4 @@
+@EndUserText.label: 'Del2'
+define service Zdel2 {
+  expose zdelivery2 as del2;
+}

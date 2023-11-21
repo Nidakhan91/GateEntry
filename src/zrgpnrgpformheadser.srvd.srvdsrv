@@ -1,0 +1,4 @@
+@EndUserText.label: 'For Head Service for RGP'
+define service Zrgpnrgpformheadser {
+  expose zrnrgpformhead as formheaditem;
+}

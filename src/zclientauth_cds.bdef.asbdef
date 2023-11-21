@@ -1,0 +1,13 @@
+managed implementation in class zbp_clientauth_cds unique;
+//strict ( 2 );
+
+define behavior for zclientauth_cds //alias <alias_name>
+persistent table zclientauth
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

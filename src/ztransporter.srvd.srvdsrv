@@ -1,0 +1,4 @@
+@EndUserText.label: 'Transporter'
+define service Ztransporter {
+  expose ztransporter as transporter;
+}

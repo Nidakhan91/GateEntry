@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate Entry Cancel Service'
+define service Zgateentrycancel {
+  expose zgatecancel as gatecancel;
+}

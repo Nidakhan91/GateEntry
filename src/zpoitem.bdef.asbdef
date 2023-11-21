@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_poitem unique;
+strict ( 2 );
+
+define behavior for zpoitem //alias <alias_name>
+//persistent table <???>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

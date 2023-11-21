@@ -1,0 +1,4 @@
+@EndUserText.label: 'Po Item'
+define service Zpoitem {
+  expose zpoitem as poitem;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate Outward Service'
+define service Zgateoutwardser {
+  expose zgateoutwardcds as gateout;
+}

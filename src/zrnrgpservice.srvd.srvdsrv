@@ -1,0 +1,5 @@
+@EndUserText.label: 'R/NRGP Service Def'
+define service Zrnrgpservice {
+  expose zrnrgpcds     as rgpnrgp;
+  expose zrnrgpitemcds as item;
+}

@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_plant unique;
+strict ( 2 );
+
+define behavior for zplant //alias <alias_name>
+//persistent table t001w
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

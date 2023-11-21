@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate Outward Report'
+define service Zgateoutwardreport {
+  expose zgateoutwardreport as gateoutward;
+}

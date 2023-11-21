@@ -1,0 +1,4 @@
+@EndUserText.label: 'Tolearance service'
+define service Ztoleranceserv {
+  expose ztolerance as tolerance;
+}

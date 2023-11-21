@@ -1,0 +1,4 @@
+@EndUserText.label: 'Admin Service'
+define service Zadminserv {
+  expose zadmincds as admin;
+}

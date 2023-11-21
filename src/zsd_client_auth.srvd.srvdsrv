@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZSD_CLIENT_AUTH'
+define service ZSD_CLIENT_AUTH {
+  expose zclientauth_cds;
+}

@@ -1,0 +1,15 @@
+unmanaged implementation in class zbp_billingdocapi unique;
+//strict ( 2 );
+
+define behavior for zbillingdocapi //alias <alias_name>
+//persistent table <???>
+lock master
+
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly : update ) BillingDocument;
+}

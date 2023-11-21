@@ -1,0 +1,21 @@
+unmanaged implementation in class zbp_rnrgpreport unique;
+strict ( 2 );
+
+define behavior for zrnrgpreport //alias <alias_name>
+//persistent table <???>
+
+lock master
+authorization master ( instance )
+//etag master <field_name>
+
+{
+field ( readonly : update ) Gatepasstype;
+field ( readonly : update ) Gatepassyear;
+field ( readonly : update ) Gatepassnumber;
+field ( readonly : update ) plant;
+field ( readonly : update ) Lineitem;
+  create;
+  update;
+  delete;
+
+}

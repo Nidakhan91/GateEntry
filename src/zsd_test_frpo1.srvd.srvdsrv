@@ -1,0 +1,4 @@
+@EndUserText.label: 'tesd'
+define service Zsd_test_FRPO1 {
+  expose ztest_FR_CDS_PO1;
+}

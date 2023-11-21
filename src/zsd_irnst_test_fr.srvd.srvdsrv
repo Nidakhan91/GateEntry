@@ -1,0 +1,4 @@
+@EndUserText.label: 'resr'
+define service Zsd_irnst_Test_fr {
+  expose ZIRN_TEST_FR;
+}

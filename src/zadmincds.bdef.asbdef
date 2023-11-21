@@ -1,0 +1,13 @@
+managed implementation in class zbp_admincds unique;
+//strict ( 2 );
+
+define behavior for zadmincds //alias <alias_name>
+persistent table zadmin
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

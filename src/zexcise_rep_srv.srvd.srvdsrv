@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination Excise Report'
+define service ZEXCISE_REP_SRV {
+  expose ZI_EXCISE_REP;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Vehicle and Transporter'
+define service Zvehicletrans {
+  expose zvehicletransporter as vehicletransporter;
+}

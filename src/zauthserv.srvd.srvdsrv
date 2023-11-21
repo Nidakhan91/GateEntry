@@ -1,0 +1,5 @@
+@EndUserText.label: 'Auth Serv'
+define service Zauthserv {
+  expose zauthusercds as auth;
+  expose zauthdatacds as data;
+}

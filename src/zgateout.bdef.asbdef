@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_gateout unique;
+strict ( 2 );
+
+define behavior for zgateout //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

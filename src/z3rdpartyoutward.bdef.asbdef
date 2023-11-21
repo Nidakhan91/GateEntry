@@ -1,0 +1,24 @@
+unmanaged;
+//strict ( 2 );
+//with draft;
+
+
+define behavior for z3rdpartyoutward implementation in class zbp_3rdpartyoutward unique //alias <alias_name>
+//late numbering
+//lock master
+//authorization master ( instance )
+//total etag Gateentrynumber
+
+//persistent table z3rdpartyoutward
+{
+  create;
+  update;
+  delete;
+  field ( readonly : update ) Gateentrynumber;
+//  validation checkweight on save { create; field Gateentrynumber, Grosswt; }
+//  draft determine action Prepare
+//  {
+//    validation checkweight;
+//  }
+
+}

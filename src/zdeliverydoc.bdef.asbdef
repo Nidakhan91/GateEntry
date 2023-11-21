@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_deliverydoc unique;
+strict ( 2 );
+
+define behavior for Zdeliverydoc //alias <alias_name>
+//persistent table likp
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

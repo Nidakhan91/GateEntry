@@ -1,0 +1,4 @@
+@EndUserText.label: 'zdelivery'
+define service Zdeliveryserv {
+  expose zdelivery as delivery;
+}

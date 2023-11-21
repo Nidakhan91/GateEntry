@@ -1,0 +1,4 @@
+@EndUserText.label: 'PO Header'
+define service Zpoheader {
+  expose zpoheader as poheader;
+}

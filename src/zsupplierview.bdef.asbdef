@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_supplierview unique;
+strict ( 2 );
+
+define behavior for zsupplierview //alias <alias_name>
+//persistent table <???>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly : update ) Supplier;
+}

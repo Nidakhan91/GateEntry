@@ -1,0 +1,21 @@
+@Metadata.layer: #(layer)
+annotate view zdelivery2
+    with 
+{
+ @UI: {
+//  lineItem:       [ { position: 1, importance: #HIGH }                          
+//                    //,{ type: #FOR_ACTION, dataAction: 'copyTravel', label: 'Copy Travel' } 
+//                    //,{ type: #FOR_ACTION, dataAction: 'acceptTravel', label: 'Accept Travel' }
+//                    //,{ type: #FOR_ACTION, dataAction: 'rejectTravel', label: 'Reject Travel' }
+//       ],
+  identification: [ { position: 1,importance: #HIGH }                          
+                   ,{ type: #FOR_ACTION, dataAction: 'post', label: 'Post to Raintree' , position : 1} 
+                   //,{ type: #FOR_ACTION, dataAction: 'acceptTravel', label: 'Accept Travel' }
+                   //,{ type: #FOR_ACTION, dataAction: 'rejectTravel', label: 'Reject Travel' }
+       ],
+    textArrangement: #TEXT_ONLY
+  }
+  Supplier;
+  
+//Your source c
+}

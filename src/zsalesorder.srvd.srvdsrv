@@ -1,0 +1,4 @@
+@EndUserText.label: 'Sales Order'
+define service Zsalesorder {
+  expose zsalesorder as salesorder;
+}

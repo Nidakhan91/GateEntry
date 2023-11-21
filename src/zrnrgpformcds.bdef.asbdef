@@ -1,0 +1,28 @@
+unmanaged implementation in class zbp_rnrgpformcds unique;
+//strict ( 2 );
+
+define behavior for zrnrgpformcds //alias <alias_name>
+//persistent table <???>
+//lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  //field ( readonly ) Gatepasstype, Gatepassyear, Gatepassnumber, Plant;
+  association item { create; }
+}
+
+define behavior for zrgnrgpformitemcds //alias <alias_name>
+//persistent table <???>
+//lock dependent by head
+//authorization dependent by head
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  //field ( readonly ) Gatepasstype, Gatepassyear, Gatepassnumber, Plant,lineitem,remqty;
+  //association head;
+}

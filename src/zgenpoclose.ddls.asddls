@@ -1,0 +1,37 @@
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Close GE'
+define root view entity zgenpoclose as select from zgenpoheader
+{
+//    key plant as Plant,
+    key gateentryno as Gateentryno,
+//    key gateentrydate as Gateentrydate,
+//    key supplier as Supplier,
+//    key podocno as Podocno,
+//    invoiceno as Invoiceno,
+//    suppliertype as Suppliertype,
+//    ewaybill as Ewaybill,
+//    vendorname as Vendorname,
+//    noofpackages as Noofpackages,
+//    vehicleno as Vehicleno,
+//    vehicletype as Vehicletype,
+//    binsyesno as Binsyesno,
+//    noofbins as Noofbins,
+//    transporter as Transporter,
+//    transportmode as Transportmode,
+//    lrno as Lrno,
+//    approvervendor as Approvervendor,
+//    customercode as Customercode,
+//    customername as Customername,
+//    lrdate as Lrdate,
+//    gateentryactualdate as Gateentryactualdate,
+//    grossqty as Grossqty,
+//    tolorane as Tolorane,
+    tareqty as Tarewt,
+    netqty as Netwt,
+//    weighttime as Weighttime,
+//    weighdate as Weighdate,
+    remark as Remark,
+    isclose as Isclose,
+    closedon as closedon,
+    closedtime as closedtime
+}

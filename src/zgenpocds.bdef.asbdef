@@ -1,0 +1,35 @@
+unmanaged implementation in class zbp_genpocds unique;
+strict ( 1 );
+
+define behavior for ZGENPOCDS //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+
+  association _genitem
+  {
+  create;
+
+  }
+}
+
+define behavior for zgenpurchasecds1 //alias <alias_name>
+//late numbering
+lock dependent
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field( readonly ) Gateentryno,Gateentrydate,Podocno,Podoctype,plant,Supplier,poitem;
+
+//  association
+      association _genh { create;}
+}

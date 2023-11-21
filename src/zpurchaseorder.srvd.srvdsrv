@@ -1,0 +1,4 @@
+@EndUserText.label: 'Purchase Order'
+define service Zpurchaseorder {
+  expose zpurchaseorder as purchaseorder;
+}

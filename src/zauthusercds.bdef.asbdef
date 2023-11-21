@@ -1,0 +1,27 @@
+unmanaged implementation in class zbp_authusercds unique;
+//strict ( 2 );
+
+define behavior for zauthusercds //alias <alias_name>
+//persistent table zgeuserauth
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly :update ) Username, Menu,role;
+  association data { create; }
+}
+
+define behavior for zauthdatacds //alias <alias_name>
+//persistent table zauthdata
+lock dependent by head
+authorization dependent by head
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly:update ) Username, Menu,role;
+  association head;
+}

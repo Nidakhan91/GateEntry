@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate Entry'
+define service Zgateentry {
+  expose zgenpurchasepr as genpurchase;
+}

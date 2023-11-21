@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination DMR Report'
+define service ZI_DMR_REP {
+  expose ZI_DMR_REP;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Billing Doc Service'
+define service Zbillingdocserv {
+  expose zbillingdocapi as billingdoc;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Plant'
+define service Zplant {
+  expose zplant as plant;
+}

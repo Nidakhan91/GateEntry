@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_genpurchasecds unique;
+//strict ( 2 );
+
+define behavior for zgenpurchasecds //alias <alias_name>
+//persistent table zgenpurchase
+lock master
+//authorization master ( basic )
+etag master gateentryno
+{
+  create ;
+  update;
+  delete;
+}

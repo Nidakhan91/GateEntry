@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_gatecancel unique;
+//strict ( 2 );
+
+define behavior for zgatecancel //alias <alias_name>
+//persistent table zgenpoheader
+//lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

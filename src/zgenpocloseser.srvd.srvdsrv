@@ -1,0 +1,4 @@
+@EndUserText.label: 'Close GE API'
+define service Zgenpocloseser {
+  expose zgenpoclose as closegenpo;
+}

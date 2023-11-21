@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Purchase Register'
+define service Z_EXPOSE_PURCHASE_REGISTER {
+  expose ZC_PURCHASE_REGISTER;
+  expose ZC_SALES_TENDER;
+}

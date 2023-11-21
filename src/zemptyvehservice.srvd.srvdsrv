@@ -1,0 +1,4 @@
+@EndUserText.label: 'Empty Vehicle Service'
+define service Zemptyvehservice {
+  expose zemptycds as emptyvehicle;
+}

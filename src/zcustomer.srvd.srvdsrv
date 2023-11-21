@@ -1,0 +1,4 @@
+@EndUserText.label: 'Customer'
+define service Zcustomer {
+  expose zcustomer as customer;
+}

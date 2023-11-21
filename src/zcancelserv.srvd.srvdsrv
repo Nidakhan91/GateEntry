@@ -1,0 +1,4 @@
+@EndUserText.label: 'Cancel Service'
+define service Zcancelserv {
+  expose zcancelcds as cancel;
+}

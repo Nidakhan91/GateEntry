@@ -1,0 +1,4 @@
+@EndUserText.label: 'DeliveryGross'
+define service Zdeliverygross {
+  expose zdeliverygross as deliverygross;
+}

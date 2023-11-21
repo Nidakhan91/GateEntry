@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service for Genpo Deep 2'
+define service Zgenposervice2 {
+  expose ZGENPOCDSpr as GENPO2;
+}

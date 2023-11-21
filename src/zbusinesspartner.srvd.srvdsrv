@@ -1,0 +1,4 @@
+@EndUserText.label: 'Business Partner'
+define service Zbusinesspartner {
+  expose zbusinesspartner as partnergrouping;
+}

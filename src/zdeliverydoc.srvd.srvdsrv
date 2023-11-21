@@ -1,0 +1,4 @@
+@EndUserText.label: 'Delivery Doc'
+define service Zdeliverydoc {
+  expose Zdeliverydoc as deliverydoc;
+}

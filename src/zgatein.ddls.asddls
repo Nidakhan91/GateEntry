@@ -1,0 +1,50 @@
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Gate In no'
+define root view entity zgatein as select from ZGENPOCDS
+//composition of target_data_source_name as _association_name
+{
+    key plant,
+    key gateentryno,
+    key gateentrydate,
+    key supplier,
+    key podocno,
+//    invoiceno,
+//    invoicedate,
+//    suppliertype,
+//    ewaybill,
+//    vendorname,
+//    noofpackages,
+//    vehicleno,
+//    vehicletype,
+//    binsyesno,
+//    noofbins,
+//    transporter,
+//    transportmode,
+//    lrno,
+//    approvervendor,
+//    customercode,
+//    customername,
+//    lrdate,
+//    gateentryactualdate,
+//    grossqty,
+//    tolorane,
+//    tareqty,
+//    netqty,
+//    weighttime,
+//    weighdate,
+//    remark,
+//    isclose,
+//    iscancelled,
+//    cancelreason,
+//    creationtime,
+//    createdby,
+//    closedon,
+//    closedtime,
+//    cancelledon,
+//    cancelledby,
+//    cancelledtime,
+    /* Associations */
+    _genitem.Material,
+    _genitem.Materialdesc
+//    _association_name // Make association public
+}

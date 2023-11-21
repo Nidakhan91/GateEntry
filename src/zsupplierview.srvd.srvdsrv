@@ -1,0 +1,4 @@
+@EndUserText.label: 'Supplier View'
+define service Zsupplierview {
+  expose zsupplierview as supplierview;
+}

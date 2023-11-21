@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_gateoutwardreport unique;
+strict ( 2 );
+
+define behavior for zgateoutwardreport //alias <alias_name>
+//persistent table <???>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

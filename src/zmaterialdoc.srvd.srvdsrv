@@ -1,0 +1,4 @@
+@EndUserText.label: 'Material Doc'
+define service Zmaterialdoc {
+  expose zmaterialdoc as materialdoc;
+}

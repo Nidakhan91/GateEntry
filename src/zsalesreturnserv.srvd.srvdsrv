@@ -1,0 +1,4 @@
+@EndUserText.label: 'Sales Return Serv'
+define service Zsalesreturnserv {
+  expose zsalesreturncds as salesreturn;
+}

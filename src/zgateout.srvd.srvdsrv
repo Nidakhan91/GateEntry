@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate Out'
+define service Zgateout {
+  expose zgateout as gateout;
+}

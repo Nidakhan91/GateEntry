@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_poheader unique;
+strict ( 2 );
+
+define behavior for zpoheader //alias <alias_name>
+//persistent table ekko
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

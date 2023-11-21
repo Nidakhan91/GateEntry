@@ -1,0 +1,4 @@
+@EndUserText.label: 'User Auth Service'
+define service ZGEauthCDSSER {
+  expose zgeauthcds as userauth;
+}

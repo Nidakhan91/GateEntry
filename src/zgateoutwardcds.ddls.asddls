@@ -1,0 +1,80 @@
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Gate Outward CDS'
+@Metadata.ignorePropagatedAnnotations: true
+define root view entity zgateoutwardcds as select from zgateoutward
+//composition of target_data_source_name as _association_name
+{
+    key gateentrynumber as Gateentrynumber,
+    key gateentrydate as Gateentrydate,
+    key plant as Plant,
+    customer as Customer,
+    deliverydocument as Deliverydocument,
+    customertype as Customertype,
+    customername as Customername,
+    
+    suppliertype as suppliertype,
+    suppliercode      as suppliercode,
+    suppliername      as suppliername,
+    vehicaltype as Vehicaltype,
+    vehicalno as Vehicalno,
+    deliverydocumentgrosswt as Deliverydocumentgrosswt,
+    tarewt as Tarewt,
+    weightdate as Weightdate,
+    weighttime as Weighttime,
+    grosswt as Grosswt,
+    netwt as Netwt,
+    remark as Remark,
+    transporter as Transporter,
+    entrytype as entrytype,
+    isclosed as isclosed,
+    closedate,
+    closetime,
+    cancelledind,
+    cancelledby,
+    cancelledon,
+    cancelledtime,
+    entrytime,
+    createdby
+//    _association_name // Make association public
+} union all select from zemptycds       as a
+{
+  key a.Gateentryno                               as Gateentrynumber,
+  key a.Gateentrydate                             as Gateentrydate,
+  key    a.Plant                                     as Plant,
+//      b.PlantName                                 as plantname,
+     ' '                                         as customer,
+     ' '                                         as Deliverydocument,
+//      ''                                          as BILLINGDOCUMENT,
+//      'EVGE'                                      as gateentrytype,
+      ' '                                         as Customertype,
+      ' '                                         as Customername,
+//      ''                                          as customercity,
+      ' '                                         as suppliertype,
+      ' '                                         as suppliercode,
+      ' '                                         as suppliername,
+//      ' '                                         as suppliercity,
+      a.vehicletype                               as Vehicaltype,
+      a.Vehicalno                                 as Vehicalno,
+      '  '                                        as Deliverydocumentgrosswt,
+      a.Tarewt                                    as Tarewt,
+      a.Weightdate                                as Weightdate,
+      a.Weighttime                                as Weighttime,
+      ' '                                         as grosswt,
+      ' '                                         as netwt,
+      a.Remark                                    as Remark,
+      a.Transporter                               as Transporter,
+//      c.SupplierName                              as transportername,
+//      c.CityName                                  as transportercity,
+      ' '                                         as entrytype,
+      ' '                                         as isclosed,
+      ''                                          as closedate,
+      ''                                          as closetime,
+      a.cancelledind,
+      a.cancelledby,
+      a.cancelledon,
+      a.cancelledtime,
+      ' ' as entrytime,
+      a.createdby
+      
+
+}

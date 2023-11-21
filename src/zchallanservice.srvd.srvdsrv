@@ -1,0 +1,5 @@
+@EndUserText.label: 'Challan Service'
+define service Zchallanservice {
+  expose zchallanheadcds as challanhead;
+  expose zchallanitemcds as challanitem;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate In No'
+define service Zgatein {
+  expose zgatein as gatein;
+}

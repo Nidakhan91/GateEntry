@@ -1,0 +1,15 @@
+managed implementation in class zbp_geusercds unique;
+//strict ( 1 );
+
+define behavior for zgeusercds //alias <alias_name>
+persistent table zgeuseraccess
+//late numbering
+lock master
+//authorization master ( instance )
+//etag master username
+{
+  create;
+  update;
+  delete ;
+  field ( readonly:update ) Username;
+}

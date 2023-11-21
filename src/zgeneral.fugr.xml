@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Genral FG</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZGENERALTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZGENERAL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZASSIGN</FUNCNAME>
+     <SHORT_TEXT>Zassign</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>FIELD</PARAMETER>
+       <TYP>CHAR100</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIELD</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZJEAPI</FUNCNAME>
+     <SHORT_TEXT>Journal Entry Post API</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

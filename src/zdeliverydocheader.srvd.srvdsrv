@@ -1,0 +1,4 @@
+@EndUserText.label: 'Doc Header'
+define service Zdeliverydocheader {
+  expose zdeliverydocheader as deliverydocheader;
+}
